@@ -1,4 +1,13 @@
 /**
+ * @name Cordppuccin
+ * @description Simple Clean looking theme with Catppuccin colors.
+ * @author dasShounak
+ * @version 1.0.0
+ */ 
+
+/**
+ * FORKED FROM:
+ *
  * @name Simplify
  * @description Simple Clean looking theme with blue colors.
  * @author Ashtrath
@@ -39,33 +48,33 @@
     --settingsmodalheight: 85vh;
 
   /*  Header Color  */
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
+    --header-primary: #babbf1;
+    --header-secondary: #a6adc8;
 
   /*  Text Color  */
-    --text-normal: #f7f4f4;
-    --channels-default: #ddd5d3;
-    --interactive-normal: #EAE1DF;
-    --interactive-hover: #EAE1DF;
-    --interactive-active: #fff;
+    --text-normal: #cdd6f4;
+    --channels-default: #7f849c;
+    --interactive-normal: #a6adc8;
+    --interactive-hover: #a6adc8;
+    --interactive-active: #a6adc8;
     --interactive-muted: #505355;
 
   /* Background Color */
-    --background-primary: #1c223a;
-    --background-secondary: #181d33;
-    --background-secondary-alt: #14192b;
-    --background-tertiary: #14192b;
-    --background-accent: #4d6a91;
-    --background-floating: #171d30;
-    --background-mentioned: rgba(0, 186, 254, 0.5);
-    --background-mentioned-hover: rgba(42, 196, 252, 0.63);
+    --background-primary: #1e1e2e;
+    --background-secondary: #181825;
+    --background-secondary-alt: #181825;
+    --background-tertiary: #1e1e2e;
+    --background-accent: #7287fd;
+    --background-floating: #181825;
+    --background-mentioned: rgba(137, 180, 250, 0.5);
+    --background-mentioned-hover: rgba(116, 199, 236, 0.63);
 
   /* Scrollbars Color */
-    --scrollbar-thin-thumb: rgba(44, 49, 71, 0.658);
+    --scrollbar-thin-thumb: rgba(69, 71, 90, 0.658);
     --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: rgba(67, 79, 134, 0.658);
-    --scrollbar-auto-track: rgba(24, 28, 51, 0.7);
-    --scrollbar-auto-scrollbar-color-thumb: rgba(67, 79, 134, 0.555);
+    --scrollbar-auto-thumb: rgba(108, 112, 134, 0.658);
+    --scrollbar-auto-track: rgba(24, 24, 37, 0.7);
+    --scrollbar-auto-scrollbar-color-thumb: rgba(77, 85, 138, 0.555);
 
   /* Chat */
     --channeltextarea-background: var(--background-primary);
@@ -78,16 +87,16 @@
     --indicator-rounding: 0;
     --indicator-border-info: 2px solid;
 
-    --indicator-selected: 112, 135, 215;
+    --indicator-selected: 30, 102, 245;
     --indicator-selected-border: rgba(var(--indicator-selected));
     --indicator-selected-background: rgba(var(--indicator-selected), 0.1);
     --indicator-selected-hover: rgba(var(--indicator-selected), 0.18);
 
-    --indicator-unread: 255, 255, 255;
+    --indicator-unread: 186, 187, 241;
     --indicator-unread-border: rgba(var(--indicator-unread), 0.6);
     --indicator-unread-background: rgba(var(--indicator-unread), 0.01);
   
-    --indicator-connected: 67, 181, 129;
+    --indicator-connected: 166, 209, 137;
     --indicator-connected-border: rgba(var(--indicator-connected));
     --indicator-connected-background: rgba(var(--indicator-connected), 0.1);
     --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
@@ -103,14 +112,15 @@
 
     --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
 
-    --rs-online-color: #43b581; /* Colour for online status */
-    --rs-idle-color: #faa61a; /* Colour for idle status */
-    --rs-dnd-color: #f04747; /* Colour for dnd status */
-    --rs-offline-color: #636b75; /* Colour for offline status */
-    --rs-streaming-color: #643da7; /* Colour for streaming status */
-    --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+    --rs-online-color: #a6d189; /* Colour for online status */
+    --rs-idle-color: #e5c890; /* Colour for idle status */
+    --rs-dnd-color: #e78284; /* Colour for dnd status */
+    --rs-offline-color: #626880; /* Colour for offline status */
+    --rs-streaming-color: #585997; /* Colour for streaming status */
+    --rs-invisible-color: #838ba7; /* Colour for invisible status - Note: this will only show for your own invisibility */
     --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
 
     --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
     --container-color: var(--background-floating);
 }
+
